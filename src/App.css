@@ -17,39 +17,25 @@ video {
     justify-content: center;
   }
 
-  .search {
-    width: 100%;
-    padding: 12px 24px;
-    background-color: transparent;
-    color: #575756;
-    box-shadow: inset 0px 0px 0px 4px #ddd6e8;
-    }
-  
-    .list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        list-style-type: none;
-        
-    }
-
-    li {
-        background-color: #ddd6e8;
-        padding: 10px;
-        margin: 10px;
-    }
-
-    h1, h2, ul, p {
+ h1, h2, p {
         font-family: 'Hedvig Letters Serif', serif;
     }
 
-    .icon {
-        width: 30px;
-        }
 
         button {
+            cursor: pointer;
+            padding: 25px;
+            font-size: 15px;
+            text-transform: uppercase;
             margin-top: 10px;
             border-radius: 12px;
             border: none;
-            background-color: #dbecc4;
+            background-color: #ecc4e0;
+            font-family: 'Hedvig Letters Serif', serif;
+            font-weight: bolder;
+            }
+
+            button:hover {
+                background-color:#fa0895;
+                transition: 0.7s;
             }
